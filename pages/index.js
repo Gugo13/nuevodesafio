@@ -2,20 +2,23 @@
 /* eslint-disable @next/next/no-page-custom-font */
 
 import React from "react";
-import Header from "../components/Header";
 import Main from "../components/Main";
 import Footer from "../components/Footer";
 import Head from "next/head";
+import Navbar from "../components/Navbar";
+import CssBaseline from "@mui/material/CssBaseline";
 
 const Home = () => (
   <>
+    <CssBaseline />
+    <Navbar></Navbar>
     <Head>
       <link
         rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
       />
     </Head>
-    <Header></Header>
+
     <Main></Main>
     <Footer></Footer>
   </>
