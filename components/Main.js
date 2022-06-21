@@ -1,11 +1,11 @@
 import React from "react";
 import Card from "./Card";
+import Hero from "./Hero";
 
 const Main = () => (
   <div>
     <section>
-      <h2>Esto es un hero</h2>
-      <p>Esto es un texto</p>
+      <Hero></Hero>
     </section>
     <section className="cards-section">
       <div className="cards">
